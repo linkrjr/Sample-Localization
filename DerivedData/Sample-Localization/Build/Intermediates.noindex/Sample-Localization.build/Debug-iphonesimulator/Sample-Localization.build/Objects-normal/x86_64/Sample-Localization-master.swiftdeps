@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "5293e46af5e893f572a06e6a2f981d60"
+build_time: [1520290797, 833574000]
+inputs:
+  "/Users/lvanriel/Desktop/Sample-Localization/Sample-Localization/ViewController.swift": [1520290793, 0]
+  "/Users/lvanriel/Desktop/Sample-Localization/Sample-Localization/AppDelegate.swift": [1520290793, 0]
