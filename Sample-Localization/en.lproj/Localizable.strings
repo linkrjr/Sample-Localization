@@ -7,3 +7,7 @@
 */
 
 "key" = "key";
+
+"with parameters" = "parameter %1$@ - %2$i";
+
+"name" = "names";

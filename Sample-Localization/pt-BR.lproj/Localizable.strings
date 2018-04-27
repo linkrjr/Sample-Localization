@@ -7,3 +7,5 @@
 */
 
 "key" = "chave";
+
+"with parameters" = "parametros %1$@ - %2$i";

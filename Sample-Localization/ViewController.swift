@@ -8,6 +8,20 @@
 
 import UIKit
 
+extension String {
+    
+    var localize: String {
+        return NSLocalizedString(self, comment: "")
+    }
+    
+    func localize(_ comment: String? = nil) -> String {
+        return NSLocalizedString(self, comment: comment ?? "")
+    }
+    
+    static let Name = { "" }
+    
+}
+
 class ViewController: UIViewController {
 
     @IBOutlet var label: UILabel!
@@ -16,6 +30,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         self.label.text = NSLocalizedString("key", comment: "")
+        
+        print("key".localize)
+        print("key".localize())
+        print("key".localize("comment"))
+        
+        print(String(format: "with parameters".localize, "Ronaldo", 39))
         
     }
 
